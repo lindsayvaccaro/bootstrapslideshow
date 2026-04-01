@@ -10,6 +10,12 @@
   max-width: 800px;
 }
 
+.header {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+}
+
 @media (max-width: 800px) {
   .carousel-items img {
     max-width: 100%;
